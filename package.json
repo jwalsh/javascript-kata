@@ -1,6 +1,6 @@
 {
   "name": "@jwalsh/javascript-kata",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript Katas",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,5 @@
     "eslint-plugin-jsx-a11y": "2",
     "eslint-plugin-react": "6"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
