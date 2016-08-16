@@ -1,14 +1,22 @@
 {
   "name": "@jwalsh/javascript-kata",
-  "version": "1.0.0",
-  "description": "",
-  "main": "fibonacci.js",
+  "version": "0.0.1",
+  "description": "JavaScript Katas",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/.bin/eslint . --ext .js --ext .jsx --ignore-path .gitignore --cache"
   },
-  "author": "",
+  "author": "Jason Walsh <j@wal.sh>",
   "license": "ISC",
   "devDependencies": {
-    "babel-cli": "^6.11.4"
+    "babel-cli": "6",
+    "babel-preset-es2015": "6",
+    "eslint": "3",
+    "eslint-config-airbnb": "10",
+    "eslint-plugin-import": "1",
+    "eslint-plugin-jsx-a11y": "2",
+    "eslint-plugin-react": "6"
+  },
+  "dependencies": {
   }
 }
